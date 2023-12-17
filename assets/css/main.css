@@ -73,6 +73,13 @@ section {
   padding-bottom: 60px;
 }
 
+.section-header img{
+  max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto
+}
+
 .section-header h2 {
   font-size: 32px;
   font-weight: 600;
@@ -1173,6 +1180,12 @@ section {
   z-index: 2;
 }
 
+#btn-comprar{
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  text-align: center;
+}
+
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
@@ -1875,7 +1888,8 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
+  /* background: var(--color-primary);#2fb7a7 */
+  background: #2fb7a7;
   padding: 60px 0 0 0;
 }
 
@@ -1968,7 +1982,6 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1976,12 +1989,55 @@ section {
   height: 100%;
   width: 100%;
   text-align: center;
+  background-color: var(--color-primary);
+}
+
+#maquiagem {
+  background: url("../img/categorias/make-up-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#maquiagem:hover{
+  background: url("../img/categorias/make-up.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#corporal {
+  background: url("../img/categorias/corporal-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#corporal:hover{
+  background: url("../img/categorias/corporal.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#facial {
+  background: url("../img/categorias/facial-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#facial:hover{
+  background: url("../img/categorias/facial.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#perfume {
+  background: url("../img/categorias/perfume-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#perfume:hover{
+  background: url("../img/categorias/perfume.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .hero .icon-box .title {
   font-weight: 700;
-  margin-bottom: 15px;
   font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .hero .icon-box .title a {
@@ -2566,6 +2622,19 @@ section {
   background-color: var(--color-primary);
   padding: 10px 0;
   color: white;
+  /* bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%; */
+}
+
+#footer-home {
+    bottom: 0;
+  left: 0;
+  height: 40px;
+  position: fixed;
+  width: 100%;
 }
 
 .footer .footer-info .logo {
